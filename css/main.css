@@ -1,3 +1,40 @@
 /*
  * Estilos de tu proyecto
  */
+ *{
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+
+ }
+ #dashboard{
+     outline: 1px solid red; 
+     width: 300px;
+     height: 950px;
+     display: inline-block;
+ }
+
+ #welcome{
+     outline: 1px green solid;
+     display: inline-block;
+     width: 280px;
+ }
+ #years{
+    outline: 2px solid violet;
+    display: inline-block;
+    width: 280px;
+
+ }
+ #stadistics{
+     outline: 1px solid blue;
+     display: inline-block;
+     width: 280px;
+ }
+ #students{
+     outline: 1px solid salmon;
+     display: inline-block;
+}
+#teachers{
+    outline: 1px solid goldenrod;
+    display: inline-block;
+}
