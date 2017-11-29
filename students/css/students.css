@@ -50,3 +50,53 @@ a{
 a:hover{
   background-color: rgb(175, 171, 171);
 }
+
+#student-container {
+  width: 60%;
+  height: 20px;
+  margin-right: 30px;
+  float: right;
+  outline: 2px solid purple;
+}
+
+#input-text{
+  width: 55em;
+}
+
+#student-info {
+  width: 100%;
+  float: right;
+  margin-top: 50px;
+  outline: 2px solid red;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+figure {
+  width: 100px;
+  height: 150px;
+  margin-left: 10px;
+  margin-top: 10px;
+  outline: 1px solid green;
+}
+
+#student-intro {
+  position: relative;
+  left: 120px;
+  bottom: 150px;
+}
+
+#boton {
+  display: inline-block;
+  position: relative;
+  left: 120px;
+  bottom: 180px;
+  padding: 10px 5px 10px 5px;
+  border-collapse: separate;
+}
+
+#scores {
+  display: inline-block;
+}
