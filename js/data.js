@@ -1069,11 +1069,11 @@ var data = {
         {
           'name': 'Jada Curgenuer',
           'photo': 'http://dummyimage.com/133x195.png/cc0000/ffffff',
-          'active': false,
+          'ctive': false,
           'sprints': [
             {
               'number': 1,
-              'score': {
+              ' score': {
                 'tech': 1483,
                 'hse': 1154
               }

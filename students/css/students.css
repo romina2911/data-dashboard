@@ -74,7 +74,6 @@ a:hover{
   margin-top: 50px;
   margin-bottom: 90px;
   background-color: white;
-  outline: 2px solid red;
 }
 
 figure {
@@ -82,7 +81,7 @@ figure {
   height: 150px;
   margin-left: 10px;
   margin-top: 10px;
-  outline: 1px solid green;
+  outline: 1px solid purple;
 }
 
 #student-intro {
@@ -103,10 +102,10 @@ figure {
 
   #courses {
     display: inline-block;
+    margin-top: 3px;
     margin-left: 140px;
     width: 28%;
     font-family: 'Hind Madurai', sans-serif;
     font-size: 20px;
     background-color: white;
-    outline: 2px solid purple;
   }

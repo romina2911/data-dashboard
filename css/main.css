@@ -16,7 +16,7 @@ body{
    top:20px;
  }
 
- #city-prom{
+ #select-prom{
    /*outline: 1px solid greenyellow;*/
    display: inline-block;
    width: 100%;
@@ -51,10 +51,13 @@ body{
    top: 50px;
    padding-top: 25px;
    margin-left: 20px;
+   color: black;
+   text-decoration: none;
  }
- 
+
  a:hover{
    background-color: rgb(175, 171, 171);
+   color: #ffc107;
  }
 
  /*
