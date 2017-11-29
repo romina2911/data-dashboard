@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Student Dashboard</title>
+
+
+    <link href="https://fonts.googleapis.com/css?family=Hind+Madurai" rel="stylesheet">
+    <link rel="stylesheet" href="css/students.css">
+  </head>
+  <body>
+     <div id="laboratoria" class="laboratoria">
+        <img src="../assets/images/logo-laboratoria.svg" width="200" height="50" alt="logo" />
+     </div>
+     <div id="city-prom" class="city-prom"></div>
+     <div id="info" class="info">
+       <a>OVERVIEW</a>
+       <a>STUDENTS</a>
+       <a>TEACHERS</a>
+       <!-- creating personalized student information-->
+       <div id="information-display" class="information-display"></div>
+       <form class="">
+      <div class="student-container">
+       <input type="text" placeholder="Ingresa Codigo">
+       </form>
+       <div class="student-info">
+         <figure>
+         </figure>
+         <h2 id="name" class="name"> Gabriela Montez</h2>
+         <span>Front End Developer</span>
+         <!-- scores -->
+         <div class="tech-skills">
+           <span class="score-1"> <strong>95.5</strong></span>
+           <span class="text-1">Tech Skills</span>
+         </div>
+         <div class="life-skills">
+           <span class="score-2"><strong>90.5</strong></span>
+           <span class="text-2">Life-Skills</span>
+         </div>
+         <div class="english">
+           <span class="language"><strong>advanced</strong></span>
+           <span class="lang-skills">English Skills</span>
+         </div>
+         <!--course buttons -->
+         <div id="button" class="button">
+         <button type="button" name="button">JAVASCRIPT</button>
+         <button type="button" name="button">API´S</button>
+         <button type="button" name="button">JQUERY</button>
+         </div>
+       </div>
+     </div>
+     <div id="information-display" class="information-display"></div>
+
+
+
+		<!-- Base de datos -->
+		<script src="./js/data.js"></script>
+		<!-- Aquí va tus archivos JS -->
+    <script src="./js/app.js"></script>
+  </body>
+</html>
