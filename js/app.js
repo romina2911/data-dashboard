@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+/*<<<<<<< HEAD
 // Puedes hacer uso de la base de datos a través de la variable `data`
 // console.log(data);
 =======
@@ -36,4 +36,4 @@ window.addEventListener ('load', function(){
     selectProm.appendChild(menu);
   });
 });
->>>>>>> fbcb085f7d27a89cd9d0c6cb45b6724b1e084a69
+/*>>>>>>> fbcb085f7d27a89cd9d0c6cb45b6724b1e084a69*/
