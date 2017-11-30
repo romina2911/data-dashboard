@@ -1,5 +1,5 @@
  *{
-<<<<<<< HEAD
+/*<<<<<<< HEAD*/
       box-sizing: border-box;
       margin: 0;
       padding: 0;
@@ -114,6 +114,8 @@ a{
   margin-left: 20px;
   text-decoration: none;
 }
+
+
 a:hover{
   background-color: rgb(175, 171, 171);
 }
