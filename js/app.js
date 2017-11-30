@@ -11,7 +11,7 @@
 
 window.addEventListener ('load', function(){
   var selectProm = document.getElementById('select-prom');
-  selectProm.addEventListener('click', function(){
+  selectProm.addEventListener('click', function() {
     var menu = document.createElement('div');
     var sedes = Object.keys(data);
     // ['ARQ', 'LIM', 'CDMX', 'SCL']
@@ -23,7 +23,6 @@ window.addEventListener ('load', function(){
       newUl.appendChild(nameSede);
 
       var bootcamp = Object.keys(data[sedes[i]]);
-
       for(var j = 0; j < bootcamp.length; j++) {
         var newLi = document.createElement('li');
         newLi.innerHTML= bootcamp[j];
@@ -32,7 +31,6 @@ window.addEventListener ('load', function(){
       }
       menu.appendChild(newUl);
     }
-
     selectProm.appendChild(menu);
   });
 
@@ -67,4 +65,11 @@ window.addEventListener ('load', function(){
           
       
 });
+<<<<<<< HEAD
 /*>>>>>>> fbcb085f7d27a89cd9d0c6cb45b6724b1e084a69*/
+=======
+/*<<<<<<< HEAD
+/*>>>>>>> fbcb085f7d27a89cd9d0c6cb45b6724b1e084a69
+=======
+/*>>>>>>> 4ee94b6cfc57e7e4d8a8a3eddc0806ea93021b35*/
+>>>>>>> c5da3d30becb0dcb49ebf622b904887819dfdae2
