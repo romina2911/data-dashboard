@@ -1,1 +1,3 @@
-// var message = alert('Hola!');
+window.addEventListener ('load', function(){
+  
+});
